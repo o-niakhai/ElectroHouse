@@ -4,7 +4,7 @@
     border: 0;
 }
 *,*:before, *:after {
-    -moz-box-sizing: border-box
+    -moz-box-sizing: border-box;
 }
 body {
     min-height: 100vh;
@@ -44,8 +44,9 @@ dd {
 	font-size: 15px;
 	line-height: 32px;
 	color: lightgrey;
-	text-shadow: 0.7px 0.7px #rgba(0,0,0,1);
+	text-shadow: 0.7px 0.7px;
 }
+
 .rating-area:not(:checked) > label:before {
 	content: '★';
 }
