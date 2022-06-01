@@ -279,6 +279,9 @@ input[type="search" i]:focus {
     color: white;
     outline: none;
 }
+.footer-subscrible {
+    font-size: 0.7rem;
+}
 /* ----------------Адаптив------------- */
 @media only screen and (max-width: 991px){
     .marker {
@@ -466,14 +469,18 @@ input[type="search" i]:focus {
 .facebook {
     font-size: 12px;
     background-color: #516EAA;
+    padding: 0 5px 0 5px;
 }
 .twitter {
     font-size: 12px;
     background-color: #29C5F6;
+    padding: 0 5px 0 5px;
+
 }
 .google {
     font-size: 12px;
     background-color: #DD1C1A;
+    padding: 0 5px 0 5px;
 }
 .facebook:hover {
     background-color:  #739cee;
