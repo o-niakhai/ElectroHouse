@@ -51,7 +51,7 @@ body a:hover {
     color: black;
     background-color: #545b61;
   }
-/* --------------------------Хедер----------------- */
+/* --------------------------Header----------------- */
 .navbar-dark .navbar-nav .nav-link {
     color: white;
 }
@@ -91,13 +91,13 @@ input[type="search" i]:focus {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #8feedd;
 }
-/* --------------------Слайдер--------------------- */
+/* --------------------Slider--------------------- */
 .slide {
     width: 100%;
     height: auto;
     margin:  5% 0 5% 0;
 }
-/* -------------------Карточки с товарами--------------- */
+/* -------------------Product cards--------------- */
 
 .card img {
     padding: 5%;
@@ -108,7 +108,7 @@ input[type="search" i]:focus {
 .card-footer a {
     color: #00D5C3;
 }
-/* ----------------Закладки с товарами----------- */
+/* ----------------Bookmarks with goods----------- */
 .marker {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -191,13 +191,13 @@ input[type="search" i]:focus {
 .navbar-brand img {
     width: 100%;
 }
-/* ---------------------Рекламный Блок---------------- */
+/* ---------------------Advertising Block---------------- */
 .advancing {
     display: flex;
     object-fit: cover;
     margin-top: 40px;
 }
-/* ----------------Рекламный слайдер-------------- */
+/* ----------------Advertising Slider-------------- */
 .slide-advancing img {
     border: none;
     background-color: rgba(255, 255, 255, 0);
@@ -209,7 +209,7 @@ input[type="search" i]:focus {
     color: red;
     text-decoration: line-through;
 }
-/* -------------Реклама компаний-------------- */
+/* -------------Company advertising-------------- */
 .company {
     height: 80px;
     display: flex;
@@ -220,7 +220,7 @@ input[type="search" i]:focus {
     border: 2px solid #3c434e;
     object-fit: cover;
 }
-/* -------------------Футер---------------- */
+/* -------------------Footer---------------- */
 .footer {
     height: 100%;
     padding: 20px 40px 20px 40px;
@@ -282,7 +282,7 @@ input[type="search" i]:focus {
 .footer-subscrible {
     font-size: 0.7rem;
 }
-/* ----------------Адаптив------------- */
+/* ----------------Adaptive------------- */
 @media only screen and (max-width: 991px){
     .marker {
         grid-template-columns: 1fr 1fr 1fr;
@@ -293,15 +293,8 @@ input[type="search" i]:focus {
     .card-about1 {
         display: flex;
     }
-    .col-card2 {
-        display: none;
-
-    }
 }
 @media only screen and (max-width: 768px) {
-    .col-card3 {
-        display: none;
-    }
     .marker {
         grid-template-columns: 1fr 1fr; 
     }
@@ -389,8 +382,9 @@ input[type="search" i]:focus {
         display: none;
     }
 }
- /* !!!!!!!!!!!!!!!!!Страница категории!!!!!!!!!!!!!!!! */
- /* -----------------Хлебные крошки-------------- */
+ /* !!!!!!!!!!!!!!!!!Category page!!!!!!!!!!!!!!!! */
+
+ /* -----------------breadcrumbs-------------- */
  .breadcrumb {
      margin: -10px 0; 
      background-color: #2b3240;
@@ -398,7 +392,7 @@ input[type="search" i]:focus {
  .breadcrumb a {
      color: #00D5C3;
  }
- /* --------------------Блок категорий------------- */
+ /* --------------------Category block------------- */
 .nav-tabs-category {
     margin-bottom: -15px;
 }
@@ -430,9 +424,9 @@ input[type="search" i]:focus {
 .list:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-/* !!!!!!!!!!!!!Страница продукта!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!Product page!!!!!!!!!!!!! */
 
-/* ---------------Слайдер продукта------------- */
+/* ---------------Product Slider------------- */
 .wrap-gallery-article {
     margin-bottom: 1rem;
     max-width: 800px;
@@ -447,7 +441,7 @@ input[type="search" i]:focus {
     margin-bottom: 1rem;
   }
 
-/* -----------------Инфо продукта------------ */
+/* -----------------Information product------------ */
 .product-info a {
     color: white;
 }
@@ -530,7 +524,7 @@ input[type="search" i]:focus {
 .btn:not(:disabled):not(.disabled) {
     margin-left: 9%;
 }
-/* --------------------Таблица продукта-------------- */
+/* --------------------Product table-------------- */
 .table {
     color: white;
 }
@@ -555,7 +549,7 @@ input[type="search" i]:focus {
 .table tr:last-child {
     border-bottom: 2px solid #6E727B;
 }
-/* !!!!!!!!!!!!!!!!!!!Страница контактов!!!!!!!!!!!!!!!!!!  */
+/* !!!!!!!!!!!!!!!!!!!Contact page!!!!!!!!!!!!!!!!!!  */
 .contacts {
     margin: 0 auto;
     width: 100%;
@@ -606,7 +600,7 @@ input[type="search" i]:focus {
 .btn:not(:disabled):not(.disabled) {
     margin-left: 0%;
 }
-/* !!!!!!!!!!!!!!!!!!Страница "О нас"!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!About us page!!!!!!!!!!!!!!!! */
 .about-info li {
     color: #00D5C3;
 }
@@ -634,4 +628,4 @@ input[type="search" i]:focus {
 .about .row {
     padding: 0;
 }
-/* ............Спасибо за внимание!.......... */
+/* ............Thank you for your attention!.......... */
