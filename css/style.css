@@ -45,7 +45,7 @@ body a:hover {
 }
 .btn:hover {
     color: black;
-    background-color: #4bffe7;
+    background-color: #3fb6a6;
 }
 .btn:active {
     color: black;
@@ -531,11 +531,11 @@ input[type="search" i]:focus {
 .table thead th {
     width: 450px;
     border-top: 0;
-    border-bottom: 2px solid #6E727B;
+    border-bottom: 2px solid #6e727c;
     background-color: #202530;
 }
 .table td, .table th {
-    border-top: 1px solid #6E727B;
+    border-top: 1px solid #6e727c;
 }
 .table tr:hover {
     background-color: #282d3b;
@@ -544,10 +544,10 @@ input[type="search" i]:focus {
 .product-table {
     margin-top: 50px;
     padding: 50px;
-    border: 1px solid #6E727B;
+    border: 1px solid #6e727c;
 }
 .table tr:last-child {
-    border-bottom: 2px solid #6E727B;
+    border-bottom: 2px solid #6e727c;
 }
 /* !!!!!!!!!!!!!!!!!!!Contact page!!!!!!!!!!!!!!!!!!  */
 .contacts {
