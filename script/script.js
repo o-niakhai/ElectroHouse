@@ -16,6 +16,51 @@ const products =[
   },
 ];
 
+let order = [];
+
+function addToBasket(productId) {
+
+  renderCart();
+  rerenderTotalPrice();
+}
+
+function removeFromBasket(productId) {
+  renderCart();
+  rerenderTotalPrice();
+}
+
+function rerenderTotalPrice() {
+
+  document.getElementById('basket-items');
+
+  cart.innerHTML = '';
+  order.forEach((item) => {
+      const el = document.createEvent('li');
+      el.innerText = item.title;
+      el.onclick = () => removeFromBasket(item.id);
+      cart.appendChild(el);
+  });
+}
+
+
+const products =[
+  {
+      id: 1,
+      title: 'Lenova Yoga',
+      price: 3000,
+  },
+  {
+      id: 2,
+      title: 'Acer Aspine',
+      price: 1800,
+  },
+  {
+      id: 3,
+      title: 'Dell Vostro',
+      price: 3400,
+  },
+];
+
 
 role="tablist" 
 role="tab"
