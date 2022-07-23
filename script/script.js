@@ -1,3 +1,22 @@
+const products =[
+  {
+      id: 1,
+      title: 'Lenova Yoga',
+      price: 3000,
+  },
+  {
+      id: 2,
+      title: 'Acer Aspine',
+      price: 1800,
+  },
+  {
+      id: 3,
+      title: 'Dell Vostro',
+      price: 3400,
+  },
+];
+
+
 role="tablist" 
 role="tab"
 role="tabpanel"
