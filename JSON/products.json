@@ -1,15 +1,15 @@
-const products =[
   {
-      id: 1,
-      title: 'Macbook Pro Retina i5',
-      price: 3000,
-      availability: true,
-  },
+      "id": 1,
+      "title": "Macbook Pro Retina i5",
+      "price": 3000,
+      "availability": true
+  }
+  
   {
-      id: 2,
-      title: 'Canon PIXMA MG2540S',
-      price: 1800,
-      availability: true,
+      "id": 2,
+      "title": "Canon PIXMA MG2540S",
+      "price": 1800,
+      "availability": true,
   },
   {
       id: 3,
@@ -143,4 +143,3 @@ const products =[
   price: 3400,
   availability: true,
 },
-];
