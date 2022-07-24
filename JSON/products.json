@@ -2,7 +2,7 @@
       "id": 1,
       "category": "laptop",
       "title": "Macbook Pro Retina i5",
-      "price": 3000,
+      "price": 2000,
       "availability": true,
       "img": "../media/tabs-images/laptop-5.png"
 },
@@ -10,7 +10,7 @@
       "id": 2,
       "category": "Printer",
       "title": "Canon PIXMA MG2540S",
-      "price": 1800,
+      "price": 1200,
       "availability": true,
       "img": "../media/tabs-images/printer-2.png"
 },
@@ -18,7 +18,7 @@
     "id": 3,
     "category": "Phone",
     "title": "Xiaomi Redmi 9A",
-    "price": 3000,
+    "price": 5000,
     "availability": true,
     "img": "../media/tabs-images/phones.png"
 },
@@ -26,7 +26,7 @@
     "id": 4,
     "category": "TV",
     "title": "Samsung UE55TU7140U",
-    "price": 1800,
+    "price": 1600,
     "availability": true,
     "img": "../media/tabs-images/tv1.png"
 },  
@@ -34,7 +34,7 @@
     "id": 5,
     "category": "HeadPhone",
     "title": "Sennheiser HD 559",
-    "price": 3000,
+    "price": 5000,
     "availability": true,
     "img": "../media/tabs-images/headphones.png"
 },
@@ -42,7 +42,7 @@
     "id": 6,
     "category": "laptop",
     "title": "ASUS TUF Gaming F15",
-    "price": 1800,
+    "price": 1900,
     "availability": true,
     "img": "../media/tabs-images/laptop2.png"
 },  
@@ -120,73 +120,73 @@
 },
 {
   "id": 16,
-      "category": "TV",
-      "title": "Samsung UE55TU7140U",
-  "price": 1800,
+    "category": "TV",
+    "title": "Samsung UE55TU7140U",
+  "price": 1440,
   "availability": true,
   "img": "../media/tabs-images/tv2.png"
 },  
 {
     "id": 17,
-      "category": "",
-      "title": "Macbook Pro Retina i5",
-    "price": 3000,
+    "category": "SmartWatch",
+    "title": "Garmin Venu Sq",
+    "price": 300,
     "availability": true,
-    "img": "../media/tabs-images/"
+    "img": "../media/tabs-images/watch1.png"
 },
 {
     "id": 18,
-      "category": "",
-      "title": "Canon PIXMA MG2540S",
-    "price": 1800,
+    "category": "laptop",
+    "title": "Dell Alienware M15",
+    "price": 1500,
     "availability": true,
-    "img": "../media/tabs-images/"
+    "img": "../media/tabs-images/laptop4.png"
 },
 {
   "id": 19,
-      "category": "",
-      "title": "Macbook Pro Retina i5",
-  "price": 3000,
+  "category": "TV",
+  "title": "Samsung UE55TU7140U",
+  "price": 1000,
   "availability": true,
-  "img": "../media/tabs-images/"
+  "img": "../media/tabs-images/tv1.png"
 },
 {
   "id": 20,
-      "category": "",
-      "title": "Canon PIXMA MG2540S",
-  "price": 1800,
+  "category": "Printer",
+  "title": "Canon PIXMA MG2540S",
+  "price": 1430,
   "availability": true,
-  "img": "../media/tabs-images/"
+  "img": "../media/tabs-images/printer-2.png"
 },  
 {
   "id": 21,
-      "category": "",
-      "title": "Macbook Pro Retina i5",
-  "price": 3000,
+  "category": "laptop",
+  "title": "Macbook Pro Retina i5",
+  "price": 1000,
   "availability": true,
-  "img": "../media/tabs-images/"
+  "img": "../media/tabs-images/laptop-5.png"
 },
 {
   "id": 22,
-      "category": "",
-      "title": "Canon PIXMA MG2540S",
+  "category": "laptop",
+  "title": "HP 15s-eq1227ur",
   "price": 1800,
   "availability": true,
-  "img": "../media/tabs-images/"
+  "img": "../media/tabs-images/laptop1.png"
 },  
 {
   "id": 23,
-      "category": "",
-      "title": "Macbook Pro Retina i5",
+      "category": "SmartWatch",
+      "title": "Elari FixiTime",
   "price": 3000,
   "availability": true,
-  "img": "../media/tabs-images/"
+  "img": "../media/tabs-images/watch2.png"
 },
 {
   "id": 24,
-      "category": "",
-      "title": "Canon PIXMA MG2540S",
-  "price": 1800,
+  "category": "laptop",
+  "title": "Dell Alienware M15",
+  "price": 1200,
   "availability": true,
-  "img": "../media/tabs-images/"
+  "img": "../media/tabs-images/laptop4.png"
 },
