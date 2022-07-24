@@ -4,7 +4,7 @@
       "price": 3000,
       "availability": true
   }
-  
+
   {
       "id": 2,
       "title": "Canon PIXMA MG2540S",
@@ -12,134 +12,137 @@
       "availability": true,
   },
   {
-      id: 3,
-      title: 'Dell Vostro',
-      price: 3400,
-      availability: true,
-  },
-  {
-    id: 4,
-    title: 'Lenova Yoga',
-    price: 3000,
-    availability: true,
+    "id": 3,
+    "title": "Macbook Pro Retina i5",
+    "price": 3000,
+    "availability": true
+}
+
+{
+    "id": 4,
+    "title": "Canon PIXMA MG2540S",
+    "price": 1800,
+    "availability": true,
+},  
+{
+    "id": 5,
+    "title": "Macbook Pro Retina i5",
+    "price": 3000,
+    "availability": true
+}
+
+{
+    "id": 6,
+    "title": "Canon PIXMA MG2540S",
+    "price": 1800,
+    "availability": true,
+},  
+{
+    "id": 7,
+    "title": "Macbook Pro Retina i5",
+    "price": 3000,
+    "availability": true
+},
+
+{
+    "id": 8,
+    "title": "Canon PIXMA MG2540S",
+    "price": 1800,
+    "availability": true,
 },
 {
-    id: 5,
-    title: 'Acer Aspine',
-    price: 1800,
-    availability: true,
+    "id": 9,
+    "title": "Macbook Pro Retina i5",
+    "price": 3000,
+    "availability": true
 },
 {
-    id: 6,
-    title: 'Dell Vostro',
-    price: 3400,
-    availability: true,
+    "id": 10,
+    "title": "Canon PIXMA MG2540S",
+    "price": 1800,
+    "availability": true,
 },
 {
-  id: 7,
-  title: 'Lenova Yoga',
-  price: 3000,
-  availability: true,
+  "id": 11,
+  "title": "Macbook Pro Retina i5",
+  "price": 3000,
+  "availability": true
 },
 {
-  id: 8,
-  title: 'Acer Aspine',
-  price: 1800,
-  availability: true,
+  "id": 12,
+  "title": "Canon PIXMA MG2540S",
+  "price": 1800,
+  "availability": true,
+},  
+{
+  "id": 13,
+  "title": "Macbook Pro Retina i5",
+  "price": 3000,
+  "availability": true
 },
 {
-  id: 9,
-  title: 'Dell Vostro',
-  price: 3400,
-  availability: true,
+  "id": 14,
+  "title": "Canon PIXMA MG2540S",
+  "price": 1800,
+  "availability": true,
+},  
+{
+  "id": 15,
+  "title": "Macbook Pro Retina i5",
+  "price": 3000,
+  "availability": true
 },
 {
-  id: 10,
-  title: 'Lenova Yoga',
-  price: 3000,
-  availability: true,
+  "id": 16,
+  "title": "Canon PIXMA MG2540S",
+  "price": 1800,
+  "availability": true,
+},  
+{
+    "id": 17,
+    "title": "Macbook Pro Retina i5",
+    "price": 3000,
+    "availability": true
 },
 {
-  id: 11,
-  title: 'Acer Aspine',
-  price: 1800,
-  availability: true,
+    "id": 18,
+    "title": "Canon PIXMA MG2540S",
+    "price": 1800,
+    "availability": true,
 },
 {
-  id: 12,
-  title: 'Dell Vostro',
-  price: 3400,
-  availability: true,
+  "id": 19,
+  "title": "Macbook Pro Retina i5",
+  "price": 3000,
+  "availability": true
 },
 {
-  id: 12,
-  title: 'Lenova Yoga',
-  price: 3000,
-  availability: true,
+  "id": 20,
+  "title": "Canon PIXMA MG2540S",
+  "price": 1800,
+  "availability": true,
+},  
+{
+  "id": 21,
+  "title": "Macbook Pro Retina i5",
+  "price": 3000,
+  "availability": true
 },
 {
-  id: 14,
-  title: 'Acer Aspine',
-  price: 1800,
-  availability: true,
+  "id": 22,
+  "title": "Canon PIXMA MG2540S",
+  "price": 1800,
+  "availability": true,
+},  
+{
+  "id": 23,
+  "title": "Macbook Pro Retina i5",
+  "price": 3000,
+  "availability": true
 },
 {
-  id: 15,
-  title: 'Dell Vostro',
-  price: 3400,
-  availability: true,
-},
-{
-  id: 16,
-  title: 'Lenova Yoga',
-  price: 3000,
-  availability: true,
-},
-{
-  id: 17,
-  title: 'Acer Aspine',
-  price: 1800,
-  availability: true,
-},
-{
-  id: 18,
-  title: 'Dell Vostro',
-  price: 3400,
-  availability: true,
-},
-{
-  id: 19,
-  title: 'Acer Aspine',
-  price: 1800,
-  availability: true,
-},
-{
-  id: 20,
-  title: 'Dell Vostro',
-  price: 3400,
-  availability: true,
-},
-{
-  id: 21,
-  title: 'Acer Aspine',
-  price: 1800,
-  availability: true,
-},
-{
-  id: 22,
-  title: 'Dell Vostro',
-  price: 3400,
-  availability: true,
-},
-{
-  id: 23,
-  title: 'Acer Aspine',
-  price: 1800,
-  availability: true,
-},
-{
-  id: 24,
-  title: 'Dell Vostro',
-  price: 3400,
-  availability: true,
+  "id": 24,
+  "title": "Canon PIXMA MG2540S",
+  "price": 1800,
+  "availability": true,
 },
