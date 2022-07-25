@@ -28,6 +28,7 @@ function removeFromBasket(productId) {
   rerenderTotalPrice();
 }
 
+
 function rerenderTotalPrice() {
 
   document.getElementById('basket-items');
