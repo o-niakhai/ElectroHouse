@@ -1,3 +1,19 @@
+$(document).ready ( function(){
+  var products = (function () {
+      var products = null;
+      $.ajax({
+          'async': false,
+          'global': false,
+          'url': '../JSON/products.json',
+          'dataType': "json",
+          'success': function (json) {
+            products = json;
+          }
+      });
+      return products;
+  })();
+  });
+  
 
 let order = [];
 
