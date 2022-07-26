@@ -13,7 +13,6 @@ $(document).ready ( function(){
       return products;
   })();
   });
-  
 
 let order = [];
 
