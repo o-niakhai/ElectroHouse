@@ -7,7 +7,7 @@ $(document).ready ( function(){
           'url': '../JSON/products.json',
           'dataType': "json",
           'success': function (json) {
-            products = json;
+          products = json;
           }
       });
       return products;
