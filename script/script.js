@@ -42,6 +42,7 @@ function rerenderTotalPrice() {
   });
 }
 
+
 // carusel
 
 role="tablist" 
