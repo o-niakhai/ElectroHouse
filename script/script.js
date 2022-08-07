@@ -1,3 +1,5 @@
+// export json
+
 $(document).ready ( function(){
   var products = (function () {
       var products = null;
