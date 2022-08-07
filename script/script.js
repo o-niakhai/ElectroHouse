@@ -40,6 +40,8 @@ function rerenderTotalPrice() {
   });
 }
 
+// carusel
+
 role="tablist" 
 role="tab"
 role="tabpanel"
