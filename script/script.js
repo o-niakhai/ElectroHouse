@@ -24,6 +24,7 @@ function addToBasket(productId) {
   rerenderTotalPrice();
 }
 
+// for basket
 function removeFromBasket(productId) {
   renderCart();
   rerenderTotalPrice();
