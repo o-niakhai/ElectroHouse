@@ -1,5 +1,9 @@
-// export json
+const openBtn = document.querySelector ('#BtnAddToCart');
+const dialog = document.querySelector ('dialog');
 
+openBtn.onclick = () => dialog.showModal()
+
+// export json
 $(document).ready ( function(){
   var products = (function () {
       var products = null;

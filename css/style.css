@@ -552,6 +552,15 @@ input[type="search" i]:focus {
 .table tr:last-child {
     border-bottom: 2px solid #6e727c;
 }
+dialog {
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+dialog::backdrop {
+    background: rgba (0, 0, 0, 0.5);
+}
 /* !!!!!!!!!!!!!!!!!!!Contact page!!!!!!!!!!!!!!!!!!  */
 .contacts {
     margin: 0 auto;
