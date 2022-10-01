@@ -1,7 +1,9 @@
 const openBtn = document.querySelector ('#BtnAddToCart');
 const dialog = document.querySelector ('dialog');
+const closeBtnAddToCart = dialog.querySelector ('button')
 
 openBtn.onclick = () => dialog.showModal()
+closeBtnAddToCart.onclick = () => dialog.close()
 
 // export json
 $(document).ready ( function(){
