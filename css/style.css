@@ -555,9 +555,12 @@ input[type="search" i]:focus {
 /* --------------------Modal------------------- */
 dialog {
     max-width: 700px;
+    padding-bottom: 10px;
     border: 1px solid rgb(129, 129, 129);
     border-radius: 5px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
