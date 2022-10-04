@@ -567,10 +567,31 @@ dialog::backdrop {
 }
 .btn-close-modal {
     margin: right;
-    width: 70px;
+    width: 50px;
+    height: 30px;
     color: #222935;
     background-color: #4bffe7;
     cursor: pointer;
+}
+.counter-wraper {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: centr;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+.counter-wraper span {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.counter-wraper span.num {
+    font-size: 20px;
+    border-right: 2px solid rgba(0, 0, 0, 0.169);
+    border-left: 2px solid rgba(0,0,0,0.169);
 }
 /* !!!!!!!!!!!!!!!!!!!Contact page!!!!!!!!!!!!!!!!!!  */
 .contacts {
