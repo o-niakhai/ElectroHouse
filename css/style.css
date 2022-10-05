@@ -589,8 +589,6 @@ dialog::backdrop {
     border: solid 0.5px;
     border-radius: 4px;
     box-shadow: 0 1px 1px;
-    cursor: pointer;
-
 }
 .counter-wraper button {
     width: 100%;
@@ -601,7 +599,7 @@ dialog::backdrop {
     font-size: 25px;
     background: #fff;
     font: #000;
-
+    cursor: pointer;
 }
 .counter-wraper span.counter-num {
     display: flex;     
