@@ -559,16 +559,17 @@ dialog {
     padding: 25px;
     max-width: 700px;
     padding-bottom: 10px;
-    color: white;
     background-color: #2b3240;
-    border: 1px solid rgb(129, 129, 129);
+    border: 2px solid rgb(129, 129, 129);
     border-radius: 5px;
 }
-
+dialog h2, p {
+    color: #fff;
+}
 dialog::backdrop {
     background: rgba(0, 0, 0, 0.34);
 }
-.btn-close-modal {
+.btn-approve-modal {
     margin-left: 20px;
     width: 50px;
     height: 30px;
@@ -584,6 +585,7 @@ dialog::backdrop {
     display: flex;
     justify-content: center;
     background-color: #fff;
+    font: #000;
     border: solid 0.5px;
     border-radius: 4px;
     box-shadow: 0 1px 1px;
@@ -598,6 +600,8 @@ dialog::backdrop {
     text-align: center;   
     font-size: 25px;
     background: #fff;
+    font: #000;
+
 }
 .counter-wraper span.counter-num {
     display: flex;     
@@ -605,9 +609,8 @@ dialog::backdrop {
     align-items: center;     
     text-align: center;   
     width:90px;
-    height: 25px;
+    height: 30px;
     font-size: 20px;
-    font: black;
     border-right: 2px solid rgba(0, 0, 0, 0.169);
     border-left: 2px solid rgba(0,0,0,0.169);
 }

@@ -4,7 +4,23 @@ const closeBtnAddToCart = dialog.querySelector ('button')
 
 openBtn.onclick = () => dialog.showModal()
 closeBtnAddToCart.onclick = () => dialog.close()
+//modal
+const increment = document.getSelection('.increment'),
+  decrement  = document.getSelection('.decrement'),
+  counterNum = document.getSelection('.counter-num');
+  
+let a = 1;
 
+increment.addEventListener('click', () => {
+  a++;
+  a = (a < 10) ? '0' + a : a;
+  counterNum.innerText = a;
+})
+decrement.addEventListener('click', () => {
+  a--;
+  a = (a < 10) ? '0' + a : a;
+  counterNum.innerText = a;
+})
 // export json
 $(document).ready ( function(){
   var products = (function () {
