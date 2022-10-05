@@ -555,18 +555,21 @@ input[type="search" i]:focus {
 }
 /* --------------------Modal------------------- */
 dialog {
+    margin: auto;
+    padding: 25px;
     max-width: 700px;
     padding-bottom: 10px;
+    color: white;
+    background-color: #2b3240;
     border: 1px solid rgb(129, 129, 129);
     border-radius: 5px;
-    margin: 0, auto;
 }
 
 dialog::backdrop {
     background: rgba(0, 0, 0, 0.34);
 }
 .btn-close-modal {
-    margin: right;
+    margin-left: 20px;
     width: 50px;
     height: 30px;
     color: #222935;
@@ -576,12 +579,14 @@ dialog::backdrop {
 .counter-wraper {
     height: 30px;
     width: 100px;
+    float: right;
+    margin-right: 20px;
     display: flex;
-    align-items: centr;
     justify-content: center;
     background-color: #fff;
+    border: solid 0.5px;
     border-radius: 4px;
-    box-shadow: 0 2px 1px;
+    box-shadow: 0 1px 1px;
     cursor: pointer;
 
 }
@@ -592,15 +597,17 @@ dialog::backdrop {
     align-items: center;     
     text-align: center;   
     font-size: 25px;
+    background: #fff;
 }
-.counter-wraper span.num {
+.counter-wraper span.counter-num {
     display: flex;     
     justify-content: center;     
     align-items: center;     
     text-align: center;   
-    width:60px;
+    width:90px;
     height: 25px;
     font-size: 20px;
+    font: black;
     border-right: 2px solid rgba(0, 0, 0, 0.169);
     border-left: 2px solid rgba(0,0,0,0.169);
 }
