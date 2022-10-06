@@ -19,9 +19,12 @@ increment.addEventListener('click', () => {
   counterNum.innerText = a;
 })
 decrement.addEventListener('click', () => {
-  a--;
-  a = (a < 10) ? '0' + a : a;
-  counterNum.innerText = a;
+  if(a > 1) {
+    a--;
+    a = (a > 1) ? '0' + a : a;
+    counterNum.innerText = a;
+  }
+
 })
 
 
