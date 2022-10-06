@@ -24,6 +24,7 @@ decrement.addEventListener('click', () => {
   counterNum.innerText = a;
 })
 
+
 // export json
 
 $(document).ready ( function(){
