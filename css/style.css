@@ -601,7 +601,7 @@ dialog::backdrop {
     font: #000;
     cursor: pointer;
 }
-.counter-wraper span.counter-num {
+.counter-wraper span.valueDisplay {
     display: flex;     
     justify-content: center;     
     align-items: center;     
@@ -612,13 +612,6 @@ dialog::backdrop {
     border-right: 2px solid rgba(0, 0, 0, 0.169);
     border-left: 2px solid rgba(0,0,0,0.169);
 }
-.counter-wraper button.increment {
-
-}
-.counter-wraper button.decrement {
-
-    }
-
 /* !!!!!!!!!!!!!!!!!!!Contact page!!!!!!!!!!!!!!!!!!  */
 .contacts {
     margin: 0 auto;

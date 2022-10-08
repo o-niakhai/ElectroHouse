@@ -7,26 +7,17 @@ const closeBtnAddToCart = dialog.querySelector ('button')
 openBtn.onclick = () => dialog.showModal()
 closeBtnAddToCart.onclick = () => dialog.close()
 
-const increment = document.getSelection('.increment'),
-  decrement  = document.getSelection('.decrement'),
-  counterNum = document.getSelection('.counter-num');
-  
-let a = 1;
+let count = 0;
+const valueDisplay = document.getElementById('valueDisplay')
 
-increment.addEventListener('click', () => {
-  a++;
-  a = (a < 10) ? '0' + a : a;
-  console.log(a)
-})
-
-decrement.addEventListener('click', () => {
-  if(a > 1) {
-    a--;
-    a = (a < 10) ? '0' + a : a;
-    counterNum.innerText = a;
-  }
-
-});
+function increment () {
+  count++
+  valueDisplay.innerText = count; 
+}
+function decrement() {
+  count--
+  valueDisplay.innerText = count;
+}
 
 
 // export json
