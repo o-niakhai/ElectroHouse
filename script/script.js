@@ -11,7 +11,7 @@ const incrementCount = document.getElementById("increment");
 const decrementCount = document.getElementById("decrement");
 
 // Select total count
-const totalCount = document.getElementById("valueDisplay");
+const totalCount = document.getElementById("totalCount");
 
 // Variable to track count
 var count = 0;
