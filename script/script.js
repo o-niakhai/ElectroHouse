@@ -16,8 +16,9 @@ let a = 1;
 increment.addEventListener('click', () => {
   a++;
   a = (a < 10) ? '0' + a : a;
-  counterNum.innerText = a;
+  console.log(a)
 })
+
 decrement.addEventListener('click', () => {
   if(a > 1) {
     a--;
