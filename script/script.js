@@ -7,11 +7,11 @@ const closeBtnAddToCart = dialog.querySelector ('button')
 openBtn.onclick = () => dialog.showModal()
 closeBtnAddToCart.onclick = () => dialog.close()
 
-const incrementCount = document.getElementById("increment-count");
-const decrementCount = document.getElementById("decrement-count");
+const incrementCount = document.getElementById("increment");
+const decrementCount = document.getElementById("decrement");
 
 // Select total count
-const totalCount = document.getElementById("total-count");
+const totalCount = document.getElementById("valueDisplay");
 
 // Variable to track count
 var count = 0;
